@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    OAuth callback successful.
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>TikTok Callback</title>
+</head>
+<body>
+  <h1>Callback OK</h1>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    document.body.innerHTML += '<pre>' + params.toString() + '</pre>';
+  </script>
+</body>
 </html>
