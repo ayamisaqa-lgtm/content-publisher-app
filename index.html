@@ -1,18 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <title>Content Publisher App</title>
+    <title>Content Publisher App</title>
 </head>
 <body>
-  <h1>Content Publisher App</h1>
-  <p>
-    This web application allows users to publish content to their TikTok accounts
-    using the official TikTok API.
-  </p>
-  <p>Contact: ayamisaqa@gmail.com</p>
-  <br><br>
+
+<h1>Content Publisher App</h1>
+
+<p>This application allows users to connect their TikTok account and upload videos using the official TikTok API.</p>
+
+<h2>Features</h2>
+<ul>
+    <li>Login with TikTok</li>
+    <li>Secure OAuth authorization</li>
+    <li>Upload videos using TikTok API</li>
+</ul>
+
+<h2>How it works</h2>
+<ol>
+    <li>User logs in with TikTok</li>
+    <li>User grants permissions</li>
+    <li>App receives authorization code</li>
+    <li>App exchanges code for access token</li>
+    <li>App uploads video via TikTok API</li>
+</ol>
+
+<h2>Login</h2>
+
+<a href="https://www.tiktok.com/v2/auth/authorize?client_key=sbaw5fkqt0uj6aga4i&response_type=code&scope=user.info.basic,video.upload&redirect_uri=https://ayamisaqa-lgtm.github.io/content-publisher-app/callback.html">
+    Login with TikTok
+</a>
+
+<h2>Contact</h2>
+<p>Email: ayamisaqa@gmail.com</p>
+
+<br><br>
+
 <a href="privacy.html">Privacy Policy</a> |
 <a href="terms.html">Terms of Service</a>
+
 </body>
 </html>
